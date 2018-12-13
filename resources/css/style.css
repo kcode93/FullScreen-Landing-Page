@@ -20,7 +20,7 @@ body{
 
 #showcase h1{
   font-size: 50px;
-  line-height: 1.2;
+  line-height: 1.0;
   font-weight: bold;
 }
 
@@ -42,4 +42,43 @@ body{
 
 #showcase .button:hover{
   background-color: rgb(41, 43, 104);
+}
+
+#sectionA{
+  padding: 20px;
+  background-color: rgb(47, 64, 132);
+  color: #ffffff;
+  text-align: center;
+}
+
+#sectionB{
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: rgb(47, 64, 132);
+  text-align: center;
+}
+
+#sectionC{
+  display: flex;
+}
+
+#box1,#box2,#box3{
+  padding: 20px;
+  text-align: center;
+}
+
+#box2{
+  background-color: #f9f9f9;
+  color: rgb(47, 64, 132);
+}
+
+.darkBox{
+  background-color: rgb(47, 64, 132);
+  color: #ffffff;
+}
+
+@media(max-width: 760px){
+  #sectionC{
+    flex-direction: column;
+  }
 }
